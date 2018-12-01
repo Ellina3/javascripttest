@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Gentium Book Basic Bold';
+    src: url('fonts/GentiumBookBasic-Bold.ttf');
+    src: url('fonts/GentiumBookBasic-Bold.woff');
+}
+
+@font-face {
+    font-family: 'YesevaOne Regular';
+    src: url('fonts/YesevaOne-Regular.ttf');
+    src: url('fonts/YesevaOne-Regular.woff');
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('fonts/Lato-Regular.ttf');
+    src: url('fonts/Lato-Regular.woff');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.previewtest, .test {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,0.1) 100%);
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: inset 0px 0px 35px rgba(0,0,0,0.4);
+    padding: 50px 30px 80px;
+}
+
+.test {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,0.1) 100%);
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: inset 0px 0px 35px rgba(0,0,0,0.4);
+    padding: 50px 30px 80px;
+}
+
+.previewtest h2{
+    font-size: 36px;
+    font-family: "Gentium Book Basic Bold";
+    color: grey;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.previewtest p{
+    font-size: 25px;
+    font-family: "YesevaOne Regular";
+    color: grey;
+    text-align: center;
+    padding-bottom: 78px;
+}
+
+.start_button_container button {
+    font-size: 15px;
+    font-family: "Lato Regular";
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 10px;
+    border: grey;
+    background-color: grey;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.start_button_container button:hover {
+    color: rgb(214, 214, 194);
+    box-shadow: 7px 7px 10px 0px rgba(132,145,232,1);
+}
+
+.start_button_container{
+    width: 23%;
+    margin: 0 auto;
+}
+
+.test form h2{
+    font-size: 36px;
+    font-family: "Gentium Book Basic Bold";
+    color: grey;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.test form p {
+    font-size: 25px;
+    font-family: "YesevaOne Regular";
+    color: grey;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.test form button input {
+    font-size: 15px;
+    font-family: "Lato Regular";
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 10px;
+    border: grey;
+    background-color: grey;
+    border-radius: 20px;
+}
+
+.test form button {
+    border: none;
+    cursor: pointer;
+}
+
+.test form button:hover{
+    border: 20px;
+    color: rgb(214, 214, 194);
+    box-shadow: 7px 7px 10px 0px rgba(132,145,232,1);
+}
+
+
+
